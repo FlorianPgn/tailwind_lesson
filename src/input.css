@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@utility section-min-height {
+    min-height: calc(100vh - 68px)
+}
+
+@theme {
+    --breakpoint-widescreen: 3/2;
+}
